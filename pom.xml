@@ -2,29 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.2</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>2.3.1.RELEASE</version>
 	</parent>
-	<groupId>com.wexinc</groupId>
-	<artifactId>ifcs-icp-ms-historical-transactions</artifactId>
+
+	<groupId>com.wexinc.gf.ifcs.web.ms.stable.spring</groupId>
+	<artifactId>ifcs-ms-historical-transactions</artifactId>
 	<version>1.999-SNAPSHOT</version>
-	<name>gf-ifcs-icp-ms-historical-transactions</name>
-	<description>Historical Transactions MicroService</description>
+	<name>${project.artifactId}</name>
+	<description>IFCS MicroService - Historical Transactions API</description>
+
 	<properties>
 		<camel.version>3.4.1</camel.version>
-		<java.version>1.8</java.version>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
 		<spring-boot.version>2.3.1.RELEASE</spring-boot.version>
 		<spring-boot-maven-plugin.version>2.3.1.RELEASE</spring-boot-maven-plugin.version>
 		<cxf-xjc.version>3.3.1</cxf-xjc.version>
 		<logging-schema.version-range>4.0.1</logging-schema.version-range>
 		<ojdbc.version>11.2.0.3</ojdbc.version>
+		<ifcs.version.range>22.3.1</ifcs.version.range>
 
-		<tile-deploy.contextPath>/ws/historical-transactions</tile-deploy.contextPath>
+		<tile-deploy.contextPath>/report/historical-transactions</tile-deploy.contextPath>
 		<tile-deploy.port>8080</tile-deploy.port>
 		<msMinReplicas>1</msMinReplicas>
 		<msCPULimit>1</msCPULimit>
@@ -32,32 +32,24 @@
 		<msMemLimit>512M</msMemLimit>
 		<msMemRequest>512m</msMemRequest>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<version>${spring-boot.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>${spring-boot.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<version>${spring-boot.version}</version>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
@@ -74,16 +66,16 @@
 			<artifactId>camel-cxf</artifactId>
 			<version>${camel.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.wexinc.gf.ifcs.ms.stable.spring</groupId>
+			<artifactId>ifcs-ms-pricing-methods-lib</artifactId>
+			<version>[1,2)</version>
+		</dependency>
+		<dependency>
+			<groupId>nz.co.fal</groupId>
+			<artifactId>semantic-layer-iface</artifactId>
+			<version>${ifcs.version.range}</version>
+		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
