@@ -1,0 +1,271 @@
+2022-07-26 08:19:17.741  INFO 23660 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : Starting HistoricalTransactionsMsApplication using Java 1.8.0_261 on DESKTOP-M1VKHGN with PID 23660 (D:\Users\W506499\IdeaProjects\microservices\Historical-Transactions\gf-ifcs-icp-ms-historical-transactions\target\classes started by W506499 in D:\Users\W506499\IdeaProjects\microservices\Historical-Transactions\gf-ifcs-icp-ms-historical-transactions)
+2022-07-26 08:19:17.749  INFO 23660 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : The following 1 profile is active: "development"
+2022-07-26 08:19:17.885  INFO 23660 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Users\W506499\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/Users/W506499/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2022-07-26 08:19:17.886  INFO 23660 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Users\W506499\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/Users/W506499/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2022-07-26 08:19:17.887  INFO 23660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-26 08:19:17.887  INFO 23660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-26 08:19:18.974  INFO 23660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 08:19:19.080  INFO 23660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2022-07-26 08:19:19.987  INFO 23660 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-26 08:19:20.923  INFO 23660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2022-07-26 08:19:20.946  INFO 23660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-26 08:19:20.946  INFO 23660 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-26 08:19:21.177  INFO 23660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-26 08:19:21.178  INFO 23660 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3290 ms
+2022-07-26 08:19:21.366  INFO 23660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-26 08:19:23.457  INFO 23660 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2022-07-26 08:19:23.623  INFO 23660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-26 08:19:23.922  INFO 23660 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 08:19:24.073  INFO 23660 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-26 08:19:24.594  INFO 23660 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 08:19:24.939  INFO 23660 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-26 08:19:26.238  INFO 23660 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 08:19:26.260  INFO 23660 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:19:27.460  INFO 23660 --- [restartedMain] o.apache.camel.support.LRUCacheFactory   : Detected and using LRUCacheFactory: camel-caffeine-lrucache
+2022-07-26 08:19:27.486  WARN 23660 --- [restartedMain] o.a.c.i.e.DefaultCamelBeanPostProcessor  : No CamelContext defined yet so cannot inject into bean: org.apache.camel.impl.health.DefaultHealthCheckRegistry
+2022-07-26 08:19:27.620  WARN 23660 --- [restartedMain] o.a.c.i.c.CoreTypeConverterRegistry      : Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@2d998de3 to: org.apache.camel.support.SimpleTypeConverter@d86291d
+2022-07-26 08:19:27.889  INFO 23660 --- [restartedMain] o.a.c.i.e.BaseExecutorServiceManager     : Using custom DefaultThreadPoolProfile: ThreadPoolProfile[default (true) size:20-20, keepAlive:60 SECONDS, maxQueue:1000, allowCoreThreadTimeOut:true, rejectedPolicy:CallerRuns]
+2022-07-26 08:19:28.043  WARN 23660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-26 08:19:28.144  INFO 23660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2022-07-26 08:19:28.149  INFO 23660 --- [restartedMain] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML routes from: classpath:camel/*.xml
+2022-07-26 08:19:28.150  INFO 23660 --- [restartedMain] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2022-07-26 08:19:28.189  INFO 23660 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) is starting
+2022-07-26 08:19:28.199  INFO 23660 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2022-07-26 08:19:28.199  INFO 23660 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Using HealthCheck: camel-health
+2022-07-26 08:19:28.200  INFO 23660 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Total 0 routes, of which 0 are started
+2022-07-26 08:19:28.200  INFO 23660 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) started in 0.010 seconds
+2022-07-26 08:19:28.208  INFO 23660 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : Started HistoricalTransactionsMsApplication in 11.493 seconds (JVM running for 18.955)
+2022-07-26 08:19:45.935  INFO 23660 --- [SpringApplicationShutdownHook] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) is shutting down
+2022-07-26 08:19:45.947  INFO 23660 --- [SpringApplicationShutdownHook] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) uptime 17.757 seconds
+2022-07-26 08:19:45.948  INFO 23660 --- [SpringApplicationShutdownHook] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) is shutdown in 0.013 seconds
+2022-07-26 08:19:46.137  INFO 23660 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:19:46.141  INFO 23660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-26 08:19:46.461  INFO 23660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-26 08:20:02.040  INFO 22676 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : Starting HistoricalTransactionsMsApplication using Java 1.8.0_261 on DESKTOP-M1VKHGN with PID 22676 (D:\Users\W506499\IdeaProjects\microservices\Historical-Transactions\gf-ifcs-icp-ms-historical-transactions\target\classes started by W506499 in D:\Users\W506499\IdeaProjects\microservices\Historical-Transactions\gf-ifcs-icp-ms-historical-transactions)
+2022-07-26 08:20:02.042  INFO 22676 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : The following 1 profile is active: "development"
+2022-07-26 08:20:02.129  INFO 22676 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Users\W506499\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/Users/W506499/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2022-07-26 08:20:02.129  INFO 22676 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Users\W506499\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/Users/W506499/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2022-07-26 08:20:02.130  INFO 22676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-26 08:20:02.130  INFO 22676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-26 08:20:02.939  INFO 22676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 08:20:03.015  INFO 22676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2022-07-26 08:20:03.678  INFO 22676 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-26 08:20:04.252  INFO 22676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2022-07-26 08:20:04.263  INFO 22676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-26 08:20:04.263  INFO 22676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-26 08:20:04.469  INFO 22676 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-26 08:20:04.469  INFO 22676 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2338 ms
+2022-07-26 08:20:04.596  INFO 22676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-26 08:20:06.156  INFO 22676 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2022-07-26 08:20:06.320  INFO 22676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-26 08:20:06.521  INFO 22676 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 08:20:06.583  INFO 22676 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-26 08:20:06.780  INFO 22676 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 08:20:06.928  INFO 22676 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-26 08:20:07.719  INFO 22676 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 08:20:07.733  INFO 22676 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:20:08.644  INFO 22676 --- [restartedMain] o.apache.camel.support.LRUCacheFactory   : Detected and using LRUCacheFactory: camel-caffeine-lrucache
+2022-07-26 08:20:08.659  WARN 22676 --- [restartedMain] o.a.c.i.e.DefaultCamelBeanPostProcessor  : No CamelContext defined yet so cannot inject into bean: org.apache.camel.impl.health.DefaultHealthCheckRegistry
+2022-07-26 08:20:08.741  WARN 22676 --- [restartedMain] o.a.c.i.c.CoreTypeConverterRegistry      : Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@7310fd4a to: org.apache.camel.support.SimpleTypeConverter@3bac05e8
+2022-07-26 08:20:08.948  INFO 22676 --- [restartedMain] o.a.c.i.e.BaseExecutorServiceManager     : Using custom DefaultThreadPoolProfile: ThreadPoolProfile[default (true) size:20-20, keepAlive:60 SECONDS, maxQueue:1000, allowCoreThreadTimeOut:true, rejectedPolicy:CallerRuns]
+2022-07-26 08:20:09.063  WARN 22676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-26 08:20:09.142  INFO 22676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2022-07-26 08:20:09.147  INFO 22676 --- [restartedMain] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML routes from: classpath:camel/*.xml
+2022-07-26 08:20:09.147  INFO 22676 --- [restartedMain] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2022-07-26 08:20:09.177  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) is starting
+2022-07-26 08:20:09.184  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2022-07-26 08:20:09.184  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Using HealthCheck: camel-health
+2022-07-26 08:20:09.185  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Total 0 routes, of which 0 are started
+2022-07-26 08:20:09.185  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) started in 0.007 seconds
+2022-07-26 08:20:09.190  INFO 22676 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : Started HistoricalTransactionsMsApplication in 7.729 seconds (JVM running for 9.745)
+2022-07-26 08:20:27.569  INFO 22676 --- [Thread-3] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) is shutting down
+2022-07-26 08:20:27.580  INFO 22676 --- [Thread-3] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) uptime 18.402 seconds
+2022-07-26 08:20:27.580  INFO 22676 --- [Thread-3] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) is shutdown in 0.011 seconds
+2022-07-26 08:20:27.698  INFO 22676 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:20:27.701  INFO 22676 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-26 08:20:28.021  INFO 22676 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-26 08:20:28.291  INFO 22676 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : Starting HistoricalTransactionsMsApplication using Java 1.8.0_261 on DESKTOP-M1VKHGN with PID 22676 (D:\Users\W506499\IdeaProjects\microservices\Historical-Transactions\gf-ifcs-icp-ms-historical-transactions\target\classes started by W506499 in D:\Users\W506499\IdeaProjects\microservices\Historical-Transactions\gf-ifcs-icp-ms-historical-transactions)
+2022-07-26 08:20:28.292  INFO 22676 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : The following 1 profile is active: "development"
+2022-07-26 08:20:28.548  INFO 22676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 08:20:28.549  INFO 22676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-07-26 08:20:28.698  INFO 22676 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-26 08:20:28.780  INFO 22676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2022-07-26 08:20:28.781  INFO 22676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-26 08:20:28.781  INFO 22676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-26 08:20:28.829  INFO 22676 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-26 08:20:28.829  INFO 22676 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 533 ms
+2022-07-26 08:20:28.971  INFO 22676 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 08:20:28.984  INFO 22676 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-26 08:20:28.995  INFO 22676 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 08:20:28.995  INFO 22676 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:20:29.187  WARN 22676 --- [restartedMain] o.a.c.i.e.DefaultCamelBeanPostProcessor  : No CamelContext defined yet so cannot inject into bean: org.apache.camel.impl.health.DefaultHealthCheckRegistry
+2022-07-26 08:20:29.213  WARN 22676 --- [restartedMain] o.a.c.i.c.CoreTypeConverterRegistry      : Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@1ded619d to: org.apache.camel.support.SimpleTypeConverter@4c2aafb6
+2022-07-26 08:20:29.339  INFO 22676 --- [restartedMain] o.a.c.i.e.BaseExecutorServiceManager     : Using custom DefaultThreadPoolProfile: ThreadPoolProfile[default (true) size:20-20, keepAlive:60 SECONDS, maxQueue:1000, allowCoreThreadTimeOut:true, rejectedPolicy:CallerRuns]
+2022-07-26 08:20:29.388  WARN 22676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-26 08:20:29.451  INFO 22676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2022-07-26 08:20:29.451  INFO 22676 --- [restartedMain] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML routes from: classpath:camel/*.xml
+2022-07-26 08:20:29.451  INFO 22676 --- [restartedMain] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2022-07-26 08:20:29.474  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-2) is starting
+2022-07-26 08:20:29.480  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2022-07-26 08:20:29.481  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Using HealthCheck: camel-health
+2022-07-26 08:20:29.481  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Total 0 routes, of which 0 are started
+2022-07-26 08:20:29.485  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-2) started in 0.006 seconds
+2022-07-26 08:20:29.486  INFO 22676 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : Started HistoricalTransactionsMsApplication in 1.255 seconds (JVM running for 30.041)
+2022-07-26 08:20:29.494  INFO 22676 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DevToolsDataSourceAutoConfiguration matched:
+      - Devtools devtools enabled. (OnEnabledDevToolsCondition)
+      - DevTools DataSource Condition found auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+
+   DevToolsDataSourceAutoConfiguration.DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor matched:
+      - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.orm.jpa.AbstractEntityManagerFactoryBean; SearchStrategy: all) found bean '&entityManagerFactory' (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-07-26 08:20:30.837  INFO 22676 --- [Thread-27] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-2) is shutting down
+2022-07-26 08:20:30.838  INFO 22676 --- [Thread-27] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-2) uptime 1.364 seconds
+2022-07-26 08:20:30.842  INFO 22676 --- [Thread-27] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-2) is shutdown in 0.004 seconds
+2022-07-26 08:20:30.994  INFO 22676 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:20:31.266  INFO 22676 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : Starting HistoricalTransactionsMsApplication using Java 1.8.0_261 on DESKTOP-M1VKHGN with PID 22676 (D:\Users\W506499\IdeaProjects\microservices\Historical-Transactions\gf-ifcs-icp-ms-historical-transactions\target\classes started by W506499 in D:\Users\W506499\IdeaProjects\microservices\Historical-Transactions\gf-ifcs-icp-ms-historical-transactions)
+2022-07-26 08:20:31.267  INFO 22676 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : The following 1 profile is active: "development"
+2022-07-26 08:20:31.575  INFO 22676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 08:20:31.589  INFO 22676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-07-26 08:20:31.795  INFO 22676 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-26 08:20:32.079  INFO 22676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2022-07-26 08:20:32.086  INFO 22676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-26 08:20:32.087  INFO 22676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-26 08:20:32.139  INFO 22676 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-26 08:20:32.139  INFO 22676 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 867 ms
+2022-07-26 08:20:32.175  INFO 22676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-07-26 08:20:33.657  INFO 22676 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2022-07-26 08:20:33.818  INFO 22676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-07-26 08:20:33.851  INFO 22676 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 08:20:33.863  INFO 22676 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-26 08:20:34.004  INFO 22676 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 08:20:34.005  INFO 22676 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:20:34.315  WARN 22676 --- [restartedMain] o.a.c.i.e.DefaultCamelBeanPostProcessor  : No CamelContext defined yet so cannot inject into bean: org.apache.camel.impl.health.DefaultHealthCheckRegistry
+2022-07-26 08:20:34.328  WARN 22676 --- [restartedMain] o.a.c.i.c.CoreTypeConverterRegistry      : Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@650250cf to: org.apache.camel.support.SimpleTypeConverter@6caa7eb
+2022-07-26 08:20:34.423  INFO 22676 --- [restartedMain] o.a.c.i.e.BaseExecutorServiceManager     : Using custom DefaultThreadPoolProfile: ThreadPoolProfile[default (true) size:20-20, keepAlive:60 SECONDS, maxQueue:1000, allowCoreThreadTimeOut:true, rejectedPolicy:CallerRuns]
+2022-07-26 08:20:34.469  WARN 22676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-26 08:20:34.498  INFO 22676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2022-07-26 08:20:34.499  INFO 22676 --- [restartedMain] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML routes from: classpath:camel/*.xml
+2022-07-26 08:20:34.500  INFO 22676 --- [restartedMain] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2022-07-26 08:20:34.512  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-3) is starting
+2022-07-26 08:20:34.513  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2022-07-26 08:20:34.513  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Using HealthCheck: camel-health
+2022-07-26 08:20:34.514  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Total 0 routes, of which 0 are started
+2022-07-26 08:20:34.514  INFO 22676 --- [restartedMain] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-3) started in 0.002 seconds
+2022-07-26 08:20:34.515  INFO 22676 --- [restartedMain] .w.h.HistoricalTransactionsMsApplication : Started HistoricalTransactionsMsApplication in 3.336 seconds (JVM running for 35.07)
+2022-07-26 08:20:34.519  INFO 22676 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) found beans of type 'javax.sql.DataSource' dataSource (OnBeanCondition)
+      Matched:
+         - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
+
+   DevToolsDataSourceAutoConfiguration:
+      Did not match:
+         - DevTools DataSource Condition did not find an auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+      Matched:
+         - Devtools devtools enabled. (OnEnabledDevToolsCondition)
+
+   DevToolsDataSourceAutoConfiguration.DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor:
+      Did not match:
+         - Ancestor org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-07-26 08:20:35.414  INFO 11660 --- [main] MsHistoricalTransactionsApplicationTests : Starting GfIfcsIcpMsHistoricalTransactionsApplicationTests using Java 1.8.0_261 on DESKTOP-M1VKHGN with PID 11660 (started by W506499 in D:\Users\W506499\IdeaProjects\microservices\Historical-Transactions\gf-ifcs-icp-ms-historical-transactions)
+2022-07-26 08:20:35.416  INFO 11660 --- [main] MsHistoricalTransactionsApplicationTests : The following 1 profile is active: "development"
+2022-07-26 08:20:36.385  INFO 11660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 08:20:36.479  INFO 11660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2022-07-26 08:20:37.513  INFO 11660 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-26 08:20:37.974  INFO 11660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-26 08:20:39.863  INFO 11660 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2022-07-26 08:20:40.030  INFO 11660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-26 08:20:40.339  INFO 11660 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 08:20:40.443  INFO 11660 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-26 08:20:40.781  INFO 11660 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 08:20:41.017  INFO 11660 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-26 08:20:42.298  INFO 11660 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 08:20:42.325  INFO 11660 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:20:44.691  INFO 11660 --- [main] o.apache.camel.support.LRUCacheFactory   : Detected and using LRUCacheFactory: camel-caffeine-lrucache
+2022-07-26 08:20:44.732  WARN 11660 --- [main] o.a.c.i.e.DefaultCamelBeanPostProcessor  : No CamelContext defined yet so cannot inject into bean: org.apache.camel.impl.health.DefaultHealthCheckRegistry
+2022-07-26 08:20:44.936  WARN 11660 --- [main] o.a.c.i.c.CoreTypeConverterRegistry      : Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@f44d033 to: org.apache.camel.support.SimpleTypeConverter@283bb8b7
+2022-07-26 08:20:45.406  INFO 11660 --- [main] o.a.c.i.e.BaseExecutorServiceManager     : Using custom DefaultThreadPoolProfile: ThreadPoolProfile[default (true) size:20-20, keepAlive:60 SECONDS, maxQueue:1000, allowCoreThreadTimeOut:true, rejectedPolicy:CallerRuns]
+2022-07-26 08:20:45.713  INFO 11660 --- [main] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML routes from: classpath:camel/*.xml
+2022-07-26 08:20:45.714  INFO 11660 --- [main] o.a.c.s.boot.SpringBootRoutesCollector   : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2022-07-26 08:20:45.787  INFO 11660 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) is starting
+2022-07-26 08:20:45.797  INFO 11660 --- [main] o.a.c.impl.engine.AbstractCamelContext   : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2022-07-26 08:20:45.798  INFO 11660 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Using HealthCheck: camel-health
+2022-07-26 08:20:45.799  INFO 11660 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Total 0 routes, of which 0 are started
+2022-07-26 08:20:45.820  INFO 11660 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) started in 0.031 seconds
+2022-07-26 08:20:45.824  INFO 11660 --- [main] MsHistoricalTransactionsApplicationTests : Started GfIfcsIcpMsHistoricalTransactionsApplicationTests in 11.133 seconds (JVM running for 13.236)
+2022-07-26 08:20:46.122  INFO 11660 --- [SpringApplicationShutdownHook] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) is shutting down
+2022-07-26 08:20:46.136  INFO 11660 --- [SpringApplicationShutdownHook] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) uptime 0.348 seconds
+2022-07-26 08:20:46.136  INFO 11660 --- [SpringApplicationShutdownHook] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 3.4.1 (camel-1) is shutdown in 0.014 seconds
+2022-07-26 08:20:46.139  INFO 11660 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:20:46.141  INFO 11660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-26 08:20:46.464  INFO 11660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
